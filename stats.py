@@ -1,6 +1,4 @@
-import sys
 
-input = sys.argv[1]
 
 def get_book_text(input):
 

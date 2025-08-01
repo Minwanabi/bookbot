@@ -9,7 +9,7 @@ def main():
     print(sys.argv)
     print(len(sys.argv))
     if len(sys.argv) <= 1:
-        print("No input file provided. Use the path to the book you want to analyze.")
+        print("Usage: python3 main.py <path_to_book>")
         sys.exit(1)
     print("============ BOOKBOT ============")
     print(f"Analyzing book {sys.argv[1]}...")
